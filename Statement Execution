@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int a;
+    float b;
+    char ch;
+    char d[20];
+    char e[30];
+    scanf("%d",&a);
+    scanf("%f ",&b);
+    scanf("%c ",&ch);
+    scanf("%s ",d);
+    fgets(e,sizeof(e),stdin);
+    printf("Integer is %d\n",a);
+    printf("Float is %.2f\n",b);
+    printf("Character is %c\n",ch);
+    printf("Strings are %s and %s",d,e);
+    return 0;
+}
