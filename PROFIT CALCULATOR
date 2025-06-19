@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int w,x,y;
+    scanf("%d\t%d\t%d",&w,&x,&y);
+    int cost=100;
+    int profit=(w*(x-y))-cost;
+    printf("Number of copies sold:%d\n",w);
+    printf("Cost of each copy:%d\n",x);
+    printf("Cost spent by agency on each newspaper:%d\n",y);
+    printf("The profit obtained is Rs.%.2f",(float)profit);   
+    return 0;
+}
